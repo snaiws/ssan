@@ -1,0 +1,17 @@
+[project]
+name = "ssan"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "lgh",email = "lghmk2@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pytubefix (>=8.11.0,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
